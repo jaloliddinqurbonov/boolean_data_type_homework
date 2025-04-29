@@ -7,4 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a**0.5==int(a**0.5)
+print(main(9))
